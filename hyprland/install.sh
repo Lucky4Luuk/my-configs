@@ -1,6 +1,7 @@
 set -e
 
 yay -S uwsm
+sudo pacman -S kitty
 sudo pacman -S hyprland
 sudo pacman -S pipewire
 sudo pacman -S wireplumber
