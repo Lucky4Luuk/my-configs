@@ -11,3 +11,5 @@ sudo pacman -S hyprpolkitagent-git
 cp .bash_profile ~/
 cp hyprland.conf ~/.config/hyprland/
 cp hyprpaper.conf ~/.config/hyprland/
+
+echo "Done!"
