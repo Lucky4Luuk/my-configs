@@ -10,8 +10,8 @@ yay -S hyprpolkitagent-git
 
 cp .bash_profile ~/
 
-mkdir ~/.config/hyprland
-cp hyprland.conf ~/.config/hyprland/
-cp hyprpaper.conf ~/.config/hyprland/
+mkdir ~/.config/hypr
+cp hyprland.conf ~/.config/hypr/
+cp hyprpaper.conf ~/.config/hypr/
 
 echo "Done!"
