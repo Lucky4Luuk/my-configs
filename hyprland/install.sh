@@ -12,8 +12,8 @@ yay -S hyprpolkitagent-git
 
 cp .bash_profile ~/
 
-mkdir ~/.config/hypr
-cp hyprland.conf ~/.config/hypr/
-cp hyprpaper.conf ~/.config/hypr/
+git clone https://github.com/quantumfate/wofi.git ~/.config/wofi
+
+bash update_cfg.sh
 
 echo "Done!"
