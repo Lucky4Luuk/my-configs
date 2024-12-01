@@ -14,7 +14,7 @@ sudo pacman -S zed
 cp Zed/settings.json ~/.config/zed/settings.json
 
 # Install Monocraft font
-mkdir ~/.local/share/fonts
+mkdir ~/.local/share/fonts -p
 wget https://github.com/IdreesInc/Monocraft/releases/download/v4.0/Monocraft.ttc
 mv Monocraft.ttc ~/.local/share/fonts
 fc-cache -fv
